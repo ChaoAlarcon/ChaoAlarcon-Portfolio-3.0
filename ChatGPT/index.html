@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Chao An Alarcón Chen — Portfolio</title>
+
+<!-- Fuentes -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <!-- Ruta por defecto: assets/logo.png. Para usar la imagen subida aquí reemplaza el src por /mnt/data/GitHub-ProfilePicture_2.png -->
+    <img src="assets/logo.png" alt="Logo Chao" />
+    <div>
+      <h1>Chao An Alarcón Chen</h1>
+      <div style="font-size:12px;color:var(--muted)">Desarrollador de Aplicaciones Web</div>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <button class="btn-accent" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">Ver Proyectos</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO / PRESENTACIÓN -->
+  <section class="hero panel">
+    <div class="hero-left">
+      <h2>Hola, soy <span style="color:var(--primary)">Chao</span><br><small style="font-weight:400">Desarrollador de Aplicaciones Web</small></h2>
+      <p class="lead">Desarrollo aplicaciones web modernas usando HTML, CSS y JavaScript. Me especializo en interfaces limpias con buenas prácticas de accesibilidad y rendimiento. También diseño assets gráficos y creo contenido multimedia.</p>
+
+      <div class="cta-row">
+        <button class="btn-accent" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">Mis Proyectos</button>
+        <a href="#contact" class="link-btn" style="background:transparent;border:1px solid rgba(255,255,255,0.03)">Descargar CV</a>
+      </div>
+
+      <div style="margin-top:18px;color:var(--muted);font-size:13px">Habilidades destacadas: <strong style="color:var(--text)">HTML • CSS • JavaScript • Git • Figma</strong></div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-card">
+        <p class="progress-title">Progreso del portafolio</p>
+        <div class="progress-bar" aria-hidden="true">
+          <div class="progress-fill" style="width:78%"></div>
+        </div>
+        <p style="margin-top:12px;color:var(--muted);font-size:13px">Interfaz inspirada en Glass + Neon UI. Color principal aplicado: <strong>#2369a5</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="projects" class="panel">
+    <h3>Proyectos</h3>
+    <p class="muted">Divididos en Desarrollo Web, Diseño Gráfico y Videos.</p>
+
+    <!-- Desarrollo Web -->
+    <div style="margin-top:16px">
+      <h4 style="margin-bottom:8px">Desarrollo Web</h4>
+      <div class="projects-grid">
+        <!-- Proyecto 1 -->
+        <article class="project">
+          <img class="thumb" src="assets/project-web-1.png" alt="Proyecto Web 1 (captura)">
+          <div class="info">
+            <h4>Buscador Dragon Ball UI</h4>
+            <p>SPA que consume una REST API de Dragon Ball. Filtros por nombre, raza y género. (HTML/CSS/JS)</p>
+            <div class="links">
+              <a class="link-btn" href="#" target="_blank"><span class="dot"></span> Demo</a>
+              <a class="link-btn" href="#" target="_blank"> Repositorio</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 2 -->
+        <article class="project">
+          <img class="thumb" src="assets/project-web-2.png" alt="Proyecto Web 2 (captura)">
+          <div class="info">
+            <h4>Juego en Java (TFG)</h4>
+            <p>Proyecto de curso: juego modular en Java aplicando OOP, ArrayList y LinkedList.</p>
+            <div class="links">
+              <a class="link-btn" href="#" target="_blank"><span class="dot"></span> Demo</a>
+              <a class="link-btn" href="#" target="_blank"> Repositorio</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 3 -->
+        <article class="project">
+          <img class="thumb" src="assets/project-web-3.png" alt="Proyecto Web 3 (captura)">
+          <div class="info">
+            <h4>Mi Tienda (Mock)</h4>
+            <p>Mock e-commerce con filtros y carrito de compras. Stack: HTML/CSS/JS + localStorage.</p>
+            <div class="links">
+              <a class="link-btn" href="#" target="_blank"><span class="dot"></span> Demo</a>
+              <a class="link-btn" href="#" target="_blank"> Repositorio</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Diseño Gráfico -->
+    <div style="margin-top:20px">
+      <h4 style="margin-bottom:8px">Diseño Gráfico</h4>
+      <div class="projects-grid">
+        <article class="project">
+          <img class="thumb" src="assets/design-1.png" alt="Diseño 1">
+          <div class="info">
+            <h4>Banner Neon UI</h4>
+            <p>Mock de banner estilo Glass Neon. Herramientas: Figma / Photoshop.</p>
+          </div>
+        </article>
+        <article class="project">
+          <img class="thumb" src="assets/design-2.png" alt="Diseño 2">
+          <div class="info">
+            <h4>Icon Pack</h4>
+            <p>Conjunto de iconos para interfaces minimalistas. Herramientas: Illustrator.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Videos -->
+    <div style="margin-top:20px">
+      <h4 style="margin-bottom:8px">Videos</h4>
+      <div style="display:grid;gap:12px">
+        <div class="panel" style="padding:12px">
+          <strong>Presentación del proyecto — TFG</strong>
+          <div class="video-frame" style="margin-top:8px">
+            <!-- Reemplaza el src con tu enlace de YouTube -->
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ + HABILIDADES -->
+  <section class="panel">
+    <div class="about-grid">
+      <div>
+        <h3>Sobre mí</h3>
+        <p class="muted">Soy estudiante de Desarrollo de Aplicaciones Web con experiencia en proyectos académicos y personales. Me gusta crear interfaces limpias, optimizar la experiencia de usuario y aprender nuevas tecnologías. Busco crecer como desarrollador full-stack y colaborar en proyectos reales.</p>
+
+        <div style="margin-top:12px">
+          <p class="muted"><strong>Formación:</strong> Ciclo Formativo Superior en Desarrollo de Aplicaciones Web.</p>
+          <p class="muted"><strong>Intereses:</strong> UI/UX, videojuegos, Java, APIs REST, creación de mods (Minecraft).</p>
+        </div>
+      </div>
+
+      <aside>
+        <h3>Habilidades</h3>
+        <div class="skills" style="margin-top:10px">
+          <div class="skill"><div class="badge">HTML</div> HTML5</div>
+          <div class="skill"><div class="badge">CSS</div> CSS3 / Flex / Grid</div>
+          <div class="skill"><div class="badge">JS</div> JavaScript (ES6+)</div>
+          <div class="skill"><div class="badge">Git</div> Git / GitHub</div>
+          <div class="skill"><div class="badge">Figma</div> Diseño UI</div>
+          <div class="skill"><div class="badge">Java</div> Programación OOP</div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contact" class="panel">
+    <h3>Contacto</h3>
+    <p class="muted">¿Tienes un proyecto o quieres colaborar? Escríbeme.</p>
+
+    <form class="contact-form" onsubmit="event.preventDefault(); alert('Formulario simulado — reemplaza con integración real');">
+      <div class="field">
+        <label class="muted">Nombre</label>
+        <input type="text" placeholder="Tu nombre" required>
+      </div>
+      <div class="field">
+        <label class="muted">Correo</label>
+        <input type="email" placeholder="tu@email.com" required>
+      </div>
+      <div class="field">
+        <label class="muted">Mensaje</label>
+        <textarea placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+      </div>
+
+      <div style="display:flex;gap:12px;align-items:center">
+        <button class="submit">Enviar mensaje</button>
+        <div style="color:var(--muted)">O contáctame en <strong style="color:var(--text)">github.com/tuusuario</strong></div>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <div style="display:flex;align-items:center;gap:12px">
+      <img src="assets/logo.png" alt="logo" style="width:38px;height:38px;border-radius:999px">
+      <div style="text-align:left">
+        <div style="font-weight:700">Chao An Alarcón Chen</div>
+        <div style="font-size:13px;color:var(--muted)">Desarrollador de Aplicaciones Web</div>
+      </div>
+    </div>
+    <div style="font-size:13px;color:var(--muted)">Gracias por visitar — © <span id="y"></span></div>
+  </footer>
+
+</main>
+
+<script>
+  // Año en el footer
+  document.getElementById('y').textContent = new Date().getFullYear();
+
+  // Si quieres que los links demo/repositorio abran ejemplo, añade aquí.
+</script>
+
+</body>
+</html>
