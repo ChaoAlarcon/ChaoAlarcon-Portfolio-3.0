@@ -1,11 +1,11 @@
 /* Variables del estilo Glass Neon */
 :root {
-	--accent-a: #7b61ff;
-	--accent-b: #00d4ff;
-	--bg-primary: #071026;
-	--bg-secondary: #031226;
-	--text-primary: #e6eef8;
-	--text-secondary: rgba(230, 238, 248, 0.8);
+	--accent-a: #0088ff;
+	--accent-b: #8fcdff;
+	--bg-primary: #031838;
+	--bg-secondary: #031838;
+	--text-primary: #e0eaf0;
+	--text-secondary: rgba(224, 234, 240, 0.85);
 }
 
 html {
@@ -81,7 +81,7 @@ header {
 }
 .btn-accent1:hover {
 	transform: translateY(-3px);
-	box-shadow: 0 18px 40px rgba(123, 97, 255, 0.18);
+	box-shadow: 0 18px 40px #0088ff;
 }
 
 body {
@@ -139,7 +139,7 @@ body {
 	border-radius: 50%;
 	margin: 0 auto 30px;
 	border: 3px solid rgba(123, 97, 255, 0.3);
-	box-shadow: 0 0 40px rgba(123, 97, 255, 0.2);
+	box-shadow: 0 0 40px #2268a4;
 	overflow: hidden;
 }
 
@@ -193,7 +193,7 @@ body {
 
 .btn-accent:hover {
 	transform: translateY(-2px);
-	box-shadow: 0 12px 35px rgba(123, 97, 255, 0.3);
+	box-shadow: 0 12px 35px #0088ff;
 	filter: brightness(1.1);
 }
 
@@ -268,7 +268,7 @@ section {
 
 .tech-tag {
 	background: rgba(123, 97, 255, 0.15);
-	border: 1px solid rgba(123, 97, 255, 0.3);
+	border: 1px solid #0088ff;
 	padding: 5px 12px;
 	border-radius: 6px;
 	font-size: 0.85rem;
@@ -333,7 +333,7 @@ section {
 
 .skill-category:hover {
 	background: rgba(255, 255, 255, 0.04);
-	border-color: rgba(123, 97, 255, 0.3);
+	border-color: #0088ff;
 }
 
 .skill-category h3 {
