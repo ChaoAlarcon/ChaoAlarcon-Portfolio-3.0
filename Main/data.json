@@ -1,0 +1,117 @@
+{
+  "personalInfo": {
+    "name": "Chao An Alarcón Chen",
+    "role": "Desarrollador de Aplicaciones Web",
+    "avatarImage": "Images/fotodeperfil.jpg",
+    "logoImage": "Images/Logotipo.png",
+    "heroSubtitle": "Desarrollo Web & Diseño Visual",
+    "heroDescription": "Estudiante de Desarrollo de Aplicaciones Web en España. Me gusta crear cosas que unan lo técnico con lo expresivo: desde páginas limpias y funcionales hasta diseños que tengan alma. Mis proyectos van de Gundam a Dragon Ball, pasando por plataformas institucionales. Todo con código limpio y diseño coherente.",
+    "aboutMe": [
+      "Soy Chao An Alarcón Chen, estudiante de Desarrollo de Aplicaciones Web en España. Tengo formación equilibrada entre frontend, backend y bases de datos, con especial interés por la organización modular del código y las buenas prácticas.",
+      "Me gusta crear proyectos que unan mis pasiones personales con el desarrollo técnico. Desde APIs de Dragon Ball hasta catalogadores de Gunpla, cada proyecto tiene algo de mí. Trabajo tanto en equipo como de forma independiente, siempre buscando que el resultado tenga calidad y coherencia.",
+      "Mi enfoque es simple: código limpio, diseño con propósito y proyectos que tengan alma. No me interesa hacer cosas solo porque sí, sino crear soluciones que funcionen y que visualmente tengan sentido. Combino pensamiento lógico con sensibilidad visual.",
+      "Más allá del código, me apasiona Gundam (especialmente Thunderbolt y el F-878 Full Armor Gundam), el anime, el diseño digital y la cultura japonesa. Todo esto se refleja en cómo construyo mis proyectos."
+    ],
+    "contactDescription": "Si quieres hablar sobre proyectos, colaboraciones o simplemente charlar sobre Gundam y desarrollo web, escríbeme.",
+    "socialLinks": [
+      {"name": "GitHub", "url": "https://github.com/ChaoAlarcon"},
+      {"name": "LinkedIn", "url": "https://www.linkedin.com/in/chao-alarc%C3%B3n/"},
+      {"name": "YouTube", "url": "https://www.youtube.com/@chaolarc"},
+      {"name": "Email", "url": "#"}
+    ],
+    "footerText": "© 2025 Chao An Alarcón Chen — Hecho con código limpio y diseño coherente"
+  },
+  "ui": {
+    "navButton": "Ver Proyectos",
+    "heroCTA": "Hablemos",
+    "sectionTitles": {
+      "desarrollo": "Desarrollo Web",
+      "diseno": "Diseño Gráfico",
+      "videos": "Videos",
+      "sobreMi": "Sobre Mí",
+      "habilidades": "Habilidades",
+      "contacto": "Contacto"
+    },
+    "form": {
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "emailLabel": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntame qué tienes en mente...",
+      "submitButton": "Enviar Mensaje"
+    }
+  },
+  "projectsWeb": [
+    {
+      "title": "Dragon Ball Universe — Search Engine",
+      "image": "https://via.placeholder.com/400x220/1a1a2e/7b61ff?text=Dragon+Ball+Universe",
+      "description": "Página web que consume una API REST de Dragon Ball. Incluye modales informativos, filtros por nombre, raza y género, y un diseño centrado en claridad y coherencia visual.",
+      "tech": ["HTML", "CSS", "JavaScript", "API REST", "Bootstrap"]
+    },
+    {
+      "title": "Centro Comercial Plaza Río 2",
+      "image": "Images/Projects-Preview/plazario2.png",
+      "description": "Proyecto grupal junto a Álvaro Santos Calvo y Nicolás García-Sampedro Docampo. Sitio web institucional moderno y organizado con interfaz fluida.",
+      "tech": ["HTML", "CSS", "JavaScript", "Bootstrap", "Netlify"]
+    },
+    {
+      "title": "Página web \"Avis\"",
+      "image": "https://via.placeholder.com/400x220/1a1a2e/00d4ff?text=Avis+Web",
+      "description": "Portfolio para una profesora de chino tradicional. Diseño friendly, limpio y armónico con HTML, CSS y JavaScript puro. Incluye botones de redes sociales, sección para vídeos de YouTube y espacio para foto de perfil.",
+      "tech": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "projectsDesign": [
+    {
+      "title": "Marca Personal — Chao",
+      "image": "https://via.placeholder.com/400x220/16476f/ffffff?text=Logo+Chao",
+      "description": "Desarrollo de identidad visual propia. Estilo caligráfico con personalidad simple pero fuerte. Colores sobrios con identidad, como el azul oscuro característico (#16476f).",
+      "tech": ["Branding", "Ilustración"]
+    },
+    {
+      "title": "Diseños Visuales",
+      "image": "https://via.placeholder.com/400x220/1a1a2e/7b61ff?text=Dise%C3%B1os+Varios",
+      "description": "Colección de diseños minimalistas y coherentes. Enfoque en espacio visual, equilibrio y buena tipografía. Todo con una razón de estar.",
+      "tech": ["Diseño Visual", "Tipografía"]
+    }
+  ],
+  "videos": [
+    {
+      "title": "Título del Video 1",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "Descripción breve del contenido del video y su contexto."
+    },
+    {
+      "title": "Título del Video 2",
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "Descripción breve del contenido del video y su contexto."
+    }
+  ],
+  "skills": [
+    {
+      "category": "Lenguajes",
+      "items": ["Java", "JavaScript", "HTML & CSS", "SQL"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["DOM Manipulation", "Modales & Filtrado Dinámico", "Interfaces Limpias", "TailwindCSS (básico)"]
+    },
+    {
+      "category": "Backend & Datos",
+      "items": ["API REST (consumo y creación)", "SQLite", "Estructura Modular", "POO (Programación Orientada a Objetos)"]
+    },
+    {
+      "category": "Diseño Gráfico",
+      "items": ["Adobe Photoshop", "Adobe Lightroom", "Adobe Illustrator"]
+    },
+    {
+      "category": "Diseño de Interfaz",
+      "items": ["Adobe Experience Design", "Figma"]
+    },
+    {
+      "category": "Edición de Vídeo y Motion Graphics",
+      "items": ["Adobe Premiere Pro", "Adobe After Effects", "Blender"]
+    }
+  ]
+}
